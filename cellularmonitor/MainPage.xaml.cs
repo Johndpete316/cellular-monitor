@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Net;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -15,4 +16,6 @@ namespace cellularmonitor
             InitializeComponent();
         }
     }
+
+    // https://stackoverflow.com/questions/2802472/detect-network-connection-type-on-android
 }
