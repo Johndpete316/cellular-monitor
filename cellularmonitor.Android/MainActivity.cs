@@ -24,5 +24,20 @@ namespace cellularmonitor.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+
+        // get the current network type
+        public string GetNetworkType()
+        {
+            var connectivityManager = (ConnectivityManager)GetSystemService(ConnectivityService);
+            var activeConnection = connectivityManager.ActiveNetworkInfo;
+            if ((activeConnection != null) && activeConnection.IsConnected)
+            {
+                return activeConnection.TypeName;
+            }
+            else
+            {
+                return "No network connection";
+            }
+        }
     }
 }
