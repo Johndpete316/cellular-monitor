@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cellularmonitor.Android", "cellularmonitor.Android\cellularmonitor.Android.csproj", "{6F140012-83EA-4214-8E86-1AC86139B833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cellularmonitor", "cellularmonitor\cellularmonitor.csproj", "{6886BFDE-EEF3-48EA-A402-E5ED190D351F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F140012-83EA-4214-8E86-1AC86139B833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F140012-83EA-4214-8E86-1AC86139B833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F140012-83EA-4214-8E86-1AC86139B833}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6F140012-83EA-4214-8E86-1AC86139B833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F140012-83EA-4214-8E86-1AC86139B833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F140012-83EA-4214-8E86-1AC86139B833}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6886BFDE-EEF3-48EA-A402-E5ED190D351F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6886BFDE-EEF3-48EA-A402-E5ED190D351F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6886BFDE-EEF3-48EA-A402-E5ED190D351F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6886BFDE-EEF3-48EA-A402-E5ED190D351F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6886BFDE-EEF3-48EA-A402-E5ED190D351F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6886BFDE-EEF3-48EA-A402-E5ED190D351F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C1306E5-425B-486D-95BB-C3293BA38C40}
+	EndGlobalSection
+EndGlobal
